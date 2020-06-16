@@ -15,9 +15,7 @@ export default class ContactForm extends Component {
   };
 
   state = {
-    name: '',
-    id: '',
-    number: '',
+    ...INITIAL_STATE
   };
 
   nameInputId = uuidv4();
